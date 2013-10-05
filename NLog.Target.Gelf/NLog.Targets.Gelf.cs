@@ -19,7 +19,7 @@ namespace NLog.Targets
     public class Gelf : NLog.Targets.Target
     {
         #region Private Members
-
+        // test
         private const int _shortMessageLength = 250;
         private const string _gelfVersion = "1.0";
         private int _maxHeaderSize

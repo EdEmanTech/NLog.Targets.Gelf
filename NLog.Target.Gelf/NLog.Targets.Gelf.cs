@@ -28,7 +28,7 @@ namespace NLog.Targets
             {
                 switch(GraylogVersion)
                 {
-                    case "0.9.6":
+                    case "0.9.7":
                         return 8;
                     default: // Default to version "0.9.5".
                         return 32;
